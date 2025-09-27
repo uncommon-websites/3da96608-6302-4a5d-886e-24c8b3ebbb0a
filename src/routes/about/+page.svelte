@@ -26,10 +26,9 @@
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Faster cash. Fewer headaches."
+	subtitle="Automated billbacks for modern distributors"
+	imageSrc="/generated/image-editorial-documentary-photograph-of-a-sm.webp"
 />
 
 <!-- Story Section -->
