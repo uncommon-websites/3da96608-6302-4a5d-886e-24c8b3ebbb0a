@@ -6,16 +6,50 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CustomerCardHero
+	title="Accelerate your cash flow by 15 days"
+	subtitle="Core Ranger automates billback processing to eliminate manual invoice reconciliation and deliver payments faster than ever."
+	centered={true}
+	customers={[
+		{
+			name: "Sarah Martinez",
+			position: "Finance Director",
+			imageSrc: "/generated/image-a-professional-female-finance-director-s.webp"
+		},
+		{
+			name: "Michael Chen",
+			position: "Finance Manager", 
+			imageSrc: "/generated/image-a-professional-male-finance-manager-in-a.webp"
+		},
+		{
+			name: "Lisa Thompson",
+			position: "Operations Director",
+			imageSrc: "/generated/image-a-professional-female-operations-directo.webp"
+		},
+		{
+			name: "David Rodriguez",
+			position: "CFO",
+			imageSrc: "/generated/image-a-professional-male-cfo-stands-in-a-mode.webp"
+		},
+		{
+			name: "Jennifer Park",
+			position: "VP Finance",
+			imageSrc: "/generated/image-a-professional-female-vp-of-finance-stan.webp"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://cdn.brandfetch.io/pepsi.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/coca-cola.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/anheuser-busch.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/molsoncoors.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
