@@ -58,54 +58,64 @@
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Rebecca Martinez",
+			position: "Finance Director",
+			company: "Northeast Beverage Distributors",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Core Ranger cut our billback processing time from 3 weeks to same day. We're now collecting $2.3 million faster each quarter, which completely transformed our cash flow management.",
+			image: "/generated/image-1-a-professional-female-finance-director.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Marcus Thompson",
+			position: "CFO",
+			company: "Pacific Coast Distribution",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Before Core Ranger, we had two full-time employees just reconciling invoices manually. Now they focus on strategic finance work while the system handles everything automatically with 99.8% accuracy.",
+			image: "/generated/image-2-a-professional-male-cfo-in-a-sharp-sui.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Diana Chen",
+			position: "VP of Operations",
+			company: "Midwest Supply Partners",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"The risk of missing billback deadlines kept me up at night. Core Ranger's real-time error detection caught $180,000 in discrepancies we would have lost forever.",
+			image: "/generated/image-3-a-professional-female-operations-vp-in.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Automated billback processing that transforms cash flow"
+	subtitle="Purpose-built for distributors who need to capture every dollar and accelerate payments"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Day 1 billback processing",
+			description: "Process billbacks immediately instead of waiting for mid-month cycles. Accelerate your cash flow by 15 days through real-time automation that eliminates manual invoice reconciliation.",
+			imageSrc: "/generated/image-1-early-morning-in-a-real-distribution-c.webp"
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Real-time error detection",
+			description: "Catch discrepancies instantly with comprehensive rules and matching systems. Never lose revenue to manual oversights or delayed claim processing.",
+			imageSrc: "/generated/image-2-wide-angle-shot-of-a-professional-ware.webp"
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Zero workflow disruption",
+			description: "Same-day implementation with guaranteed zero disruption to your existing processes. Start processing billbacks faster without changing how your team works.",
+			imageSrc: "/generated/image-3-small-group-of-business-professionals-.webp"
+		},
+		{
+			title: "Comprehensive claims matching",
+			description: "Capture every dollar through intelligent automation that processes complex supplier billbacks with precision.",
+		},
+		{
+			title: "Eliminates manual processes",
+			description: "Replace spreadsheets, email chains, and supplier portals with one automated system that handles everything.",
+		},
+		{
+			title: "Built for distribution scale",
+			description: "Proven to handle $1.8+ billion in annual processing volume across 40+ million cases with enterprise reliability.",
 		}
 	]}
 />
